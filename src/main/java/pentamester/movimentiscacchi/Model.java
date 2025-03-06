@@ -46,7 +46,7 @@ public class Model {
         }
         observer.setCells(list, piecesName[piece],row, col);
     }
-
+    //scorciatia perfar diventare un metodo da implementare neollo switch
     private void knight(List<Coord> list, int row) {
         // Knight == caballo
         list.add(new Coord(row - 2, col + 1));
